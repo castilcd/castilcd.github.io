@@ -1,8 +1,9 @@
  header {
       text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background: url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/1937498_2585725362397_3611061922281079838_n.jpg?oh=307f0d782a470b888b41b9b1e04b01da&oe=551BE7EA&__gda__=1427813097_973301bfb6e4975f99681d274d69025b');
       background-size: cover;
       color: white;
+      background-position: bottom;
     }
     a {
       color: white;
