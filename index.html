@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <!-- URL: https://dash.generalassemb.ly/castilcd/build-your-own-blog-theme -->
-<head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link href="normalize.css" rel="stylesheet">
-  <link href='main.css' rel='stylesheet'>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='main.css' rel='stylesheet'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
   <header>
-    <img src="https://scontent-a-lhr.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/7889_2215961678536_2122661459_n.jpg?oh=283ee491e711fd9b62317bc7b7dc78c4&oe=54E79F91" width=200>
-    <h1>Cat's Blog</h1>
+
+    <img src="images/face.jpg" width="200px">
+    <h1>Catherine Castillo</h1>
     <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">My Faves</a></li>
-      <li><a href="#">Where I've Been</a></li>
-      <li><a href="#">My Dreams</a></li>
+      <li><a href="#step1">Background</a></li>
+      <li><a href="#step2">Education</a></li>
+      <li><a href="#step3">Research Experience</a></li>
+      <li><a href="#step4">Current Projects</a></li>
     </ul>
   </header>
-  <article>
-    <h2>VHS umami pop-up trust fund</h2>
-    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro. yay!</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Sartorial synth Echo Park, roof party</h2>
-    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice_kjterjhtiorej.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Forage food truck keytar master cleanse</h2>
-    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-    <button>Like</button>
-  </article>
+  <section class="scrolling-container">
+    <article id="step1">
+      <h2>Background</h2>
+      <p>I'm a graduate student at The University of Manchester in the UK. I'm interested in health research and applied statistics. I grew up in Massachusetts and studied in New York for two years before moving to the UK to pursue a PhD. </p>
+      <button>Like</button>
+    </article>
+    <article id="step2">
+      <h2>Education</h2>
+      <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice_kjterjhtiorej.</p>
+      <button>Like</button>
+    </article>
+    <article id="step3">
+      <h2>Research Experience</h2>
+      <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+      <button>Like</button>
+    </article>
+    <article id="step4">
+      <h2>Current Projects</h2>
+      <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+      <button>Like</button>
+    </article>
+  </section>
   <script>
     $("button").on("click", function() {
       alert("Clicked!");
     });
   </script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
 </body>
+</html>
